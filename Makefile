@@ -3,3 +3,6 @@ make build :
 
 make run :
 	trunk serve
+
+make clean :
+	trunk clean
