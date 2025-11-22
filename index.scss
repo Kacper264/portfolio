@@ -1,35 +1,156 @@
-html,
 body {
-  height: 100%;
   margin: 0;
+  font-family: system-ui, sans-serif;
 }
 
-body {
+.section-wrapper {
+  background: linear-gradient(135deg, #3b82f6 0%, #69a5ff 45%, #e4efff 100%);
   align-items: center;
+  min-height: 100vh;
+  padding: 64px 72px;
   display: flex;
+
+  padding-top: 48px; // optionnel : réduit l’espace haut
+  flex-direction: column;
   justify-content: center;
-
-  background: linear-gradient(to bottom right, #444444, #009a5b);
-  font-size: 1.5rem;
+  gap: 80px;
 }
 
-main {
-  color: #fff6d5;
-  font-family: sans-serif;
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.section__left {
+  max-width: 520px;
+  color: #ffffff;
+}
+
+.name {
+  margin: 0 0 12px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.role {
+  margin: 0 0 24px;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.intro {
+  margin: 0 0 40px;
+  font-size: 18px;
+}
+
+.buttons {
+  display: flex;
+  gap: 24px;
+}
+
+.btn {
+  padding: 12px 28px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.btn--primary {
+  background: #2563eb;
+  color: white;
+}
+
+.btn--primary:hover {
+  transform: translateY(-2px);
+}
+
+.btn--ghost {
+  background: white;
+  color: #2563eb;
+}
+
+.btn--ghost:hover {
+  transform: translateY(-2px);
+}
+
+.section__right {
+  flex: 0 0 auto;
+}
+
+.photo-placeholder {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  background: #e2e2e2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #111827;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.skills {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.skills__title {
   text-align: center;
+  margin: 0 0 24px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1e293b; // bleu/gris discret comme sur ton screen
 }
 
-.logo {
-  height: 20em;
+.skills__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); // prend toute la largeur
+  gap: 32px 48px; // espace horizontal plus large
 }
 
-.heart:after {
-  content: "❤️";
 
-  font-size: 1.75em;
+.skill-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 18px 24px;
+  box-shadow: 0 6px 14px rgba(15, 23, 42, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-h1 + .subtitle {
-  display: block;
-  margin-top: -1em;
+.skill-card__icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin-left: 10px;
+  background: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #111827;
+}
+
+.skill-card__label {
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 75px;
+  color: #111827;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .section {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
 }
