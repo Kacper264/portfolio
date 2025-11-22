@@ -11,6 +11,7 @@ fn switch(route: Route) -> Html {
         Route::Home => html! { <pages::home::Home /> },
         Route::Projects => html! { <pages::projects::Projects /> },
         Route::About => html! { <pages::about::About /> },
+        Route::Contact => html! { <pages::contact::Contact /> },
     }
 }
 

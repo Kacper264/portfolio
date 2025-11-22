@@ -1,0 +1,176 @@
+.contact-page {
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.contact {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.contact__header {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.contact__title {
+  margin: 0 0 8px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.contact__subtitle {
+  margin: 0;
+  font-size: 15px;
+  color: #e5e7eb;
+}
+
+.contact__body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 56px;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.contact__card {
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.16);
+  padding: 24px 28px 28px;
+}
+
+.contact__card--form {
+  flex: 0 1 500px;
+}
+
+.contact__card--info {
+  flex: 0 1 320px;
+}
+
+/* ----- Formulaire ----- */
+
+.contact__card--form {
+  padding: 32px 40px;
+  display: flex;
+  justify-content: center; /* centre horizontalement */
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 500px; /* largeur idéale */
+  margin: 0 auto;    /* centre le bloc */
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.contact-form__input,
+.contact-form__textarea {
+  width: 100%;       /* occupe toute la largeur du bloc centré */
+  font-size: 14px;
+  font-family: inherit;
+  border: 1px solid #d1d5db;
+}
+
+.contact-form__input:focus,
+.contact-form__textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 1px rgba(37, 99, 235, 0.4);
+}
+
+.contact-form__textarea {
+  resize: vertical;
+  min-height: 130px;
+}
+
+.contact-form__actions {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form__button {
+  min-width: 150px;
+}
+
+/* ----- Infos ----- */
+
+.contact-info__title {
+  margin: 0 0 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: #111827;
+}
+
+.contact-info__list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.contact-info__item {
+  text-align: center;
+}
+
+.contact-info__label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #111827;
+}
+
+.contact-info__value {
+  display: block;
+  font-size: 13px;
+  color: #4b5563;
+}
+
+/* ----- Boutons ronds réseaux ----- */
+
+.contact__socials {
+  margin-top: 24px;
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+
+.contact-social {
+  width: 90px;
+  height: 90px;
+  border-radius: 999px;
+  background: #ffffff;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #111827;
+  text-decoration: none;
+}
+
+/* Hover léger */
+.contact-social:hover {
+  transform: translateY(-2px);
+}
+
+/* Responsive */
+
+@media (max-width: 900px) {
+  .contact__body {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .contact__card {
+    width: 100%;
+  }
+}
