@@ -112,7 +112,7 @@ pub fn projects() -> Html {
     html! {
         <main class="section-wrapper projects-page">
             <section class="projects">
-                <h1 class="projects__title">{ "Projets" }</h1>
+                <h1 class="projects__title">{ "Mes Projets" }</h1>
 
                 <div class="projects__grid">
                     {

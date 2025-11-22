@@ -40,6 +40,67 @@ pub fn home() -> Html {
                     </div>
                 </div>
             </section>
+            <section class="skills">
+                <h3 class="skills__title">{ "Mes Compétences" }</h3>
+
+                <div class="skills__grid">
+
+                    // --- Skill 1 ---
+                    <div class="skill-card">
+                        <div class="skill-card__icon">{ "Icone" }</div>
+                        <div class="skill-card__label">{ "Skill 1" }</div>
+                    </div>
+
+                    // --- Skill 2 ---
+                    <div class="skill-card">
+                        <div class="skill-card__icon">{ "Icone" }</div>
+                        <div class="skill-card__label">{ "Skill 2" }</div>
+                    </div>
+
+                    // --- Skill 3 ---
+                    <div class="skill-card">
+                        <div class="skill-card__icon">{ "Icone" }</div>
+                        <div class="skill-card__label">{ "Skill 3" }</div>
+                    </div>
+
+                    // --- Skill 4 ---
+                    <div class="skill-card">
+                        <div class="skill-card__icon">{ "Icone" }</div>
+                        <div class="skill-card__label">{ "Skill 4" }</div>
+                    </div>
+
+                    // --- Skill 5 ---
+                    <div class="skill-card">
+                        <div class="skill-card__icon">{ "Icone" }</div>
+                        <div class="skill-card__label">{ "Skill 5" }</div>
+                    </div>
+
+                    // --- Skill 6 ---
+                    <div class="skill-card">
+                        <div class="skill-card__icon">{ "Icone" }</div>
+                        <div class="skill-card__label">{ "Skill 6" }</div>
+                    </div>
+
+                    // --- Skill 7 ---
+                    <div class="skill-card">
+                        <div class="skill-card__icon">{ "Icone" }</div>
+                        <div class="skill-card__label">{ "Skill 7" }</div>
+                    </div>
+
+                    // --- Skill 8 ---
+                    <div class="skill-card">
+                        <div class="skill-card__icon">{ "Icone" }</div>
+                        <div class="skill-card__label">{ "Skill 8" }</div>
+                    </div>
+
+                    // --- Skill 9 ---
+                    <div class="skill-card">
+                        <div class="skill-card__icon">{ "Icone" }</div>
+                        <div class="skill-card__label">{ "Skill 9" }</div>
+                    </div>
+
+                </div>
+            </section>
         </main>
     }
 }
