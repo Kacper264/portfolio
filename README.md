@@ -19,10 +19,10 @@ Voir l’application en ligne : [https://portfolio-kacper-preprod.netlify.app/](
 ---
 
 ## 📁 Structure du dépôt  
-├── src/ ← Code source Rust (front-end)
+```├── src/ ← Code source Rust (front-end)
 ├── Cargo.toml ← Projet Rust
 ├── Makefile ← Tâches utiles (build, serve, deploy)
 ├── netlify.toml ← Configuration Netlify
 ├── LICENSE-APACHE ← Licence Apache 2.0
-└── LICENSE-MIT ← Licence MIT
+└── LICENSE-MIT ← Licence MIT```
 
