@@ -1,35 +1,23 @@
-html,
+/* ----------------------------- */
+/*          GLOBAL STYLES        */
+/* ----------------------------- */
+
 body {
-  height: 100%;
   margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #3b82f6, #93c5fd);
 }
 
-body {
-  align-items: center;
+/* Layout global */
+.section-wrapper {
+  background: linear-gradient(135deg, #3b82f6 0%, #69a5ff 45%, #e4efff 100%);
+  min-height: 100vh;
+
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 
-  background: linear-gradient(to bottom right, #444444, #009a5b);
-  font-size: 1.5rem;
-}
-
-main {
-  color: #fff6d5;
-  font-family: sans-serif;
-  text-align: center;
-}
-
-.logo {
-  height: 20em;
-}
-
-.heart:after {
-  content: "❤️";
-
-  font-size: 1.75em;
-}
-
-h1 + .subtitle {
-  display: block;
-  margin-top: -1em;
+  padding: 96px 72px 72px; // marge haute par défaut
+  gap: 48px;
 }
