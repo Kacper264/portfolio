@@ -8,7 +8,7 @@ pub fn nav() -> Html {
         <header class="top-nav">
             <nav class="top-nav__inner">
                 <Link<Route> to={Route::Home} classes="top-nav__logo">
-                    { "KW" }
+                    { "kw" }
                 </Link<Route>>
 
                 <div class="top-nav__links">
