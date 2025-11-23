@@ -10,6 +10,8 @@ pub enum Route {
     About,
     #[at("/contact")]
     Contact,
+    #[at("/competence")]
+    Competence,
     #[at("/links")]
     Links,
 }

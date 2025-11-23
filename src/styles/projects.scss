@@ -37,8 +37,7 @@
 .project-card__inner {
   position: relative;
   width: 100%;
-  height: 100%;
-  min-height: 180px;
+  /* plus de height fixe, plus de min-height */
   transition: transform 0.6s;
   transform-style: preserve-3d;
 }
@@ -48,8 +47,6 @@
 }
 
 .project-card__face {
-  position: absolute;
-  inset: 0;
   border-radius: 16px;
   background: #ffffff;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.10);
@@ -59,9 +56,9 @@
   backface-visibility: hidden;
 }
 
-/* Face avant */
-
+/* Face avant : dans le flux → elle donne la hauteur */
 .project-card__face--front {
+  position: relative;
 }
 
 .project-card__image {
@@ -111,13 +108,15 @@
 }
 
 .project-card__button {
-  margin-top: 8px;
+  margin-top: 0 auto;
   padding-inline: 28px; /* on garde ton style de bouton */
 }
 
 /* Face arrière */
 
 .project-card__face--back {
+  position: absolute;
+  inset: 0;
   transform: rotateY(180deg);
   flex-direction: column;
   justify-content: center;
