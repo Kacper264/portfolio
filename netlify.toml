@@ -1,9 +1,11 @@
 [build]
 command = """
-curl https://sh.rustup.rs -sSf | sh -s -- -y \
- && export PATH=\"$HOME/.cargo/bin:$PATH\" \
+if [ ! -f "$HOME/.cargo/env" ]; then
+  curl https://sh.rustup.rs -sSf | sh -s -- -y
+fi \
+ && . "$HOME/.cargo/env" \
  && rustup target add wasm32-unknown-unknown \
- && cargo install trunk \
+ && (command -v trunk >/dev/null 2>&1 || cargo install trunk) \
  && trunk build --release
 """
 publish = "dist"
