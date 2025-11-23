@@ -23,6 +23,9 @@ pub fn nav() -> Html {
                     <Link<Route> to={Route::Contact} classes="top-nav__link">
                         { "Contact" }
                     </Link<Route>>
+                    <Link<Route> to={Route::Competence} classes="top-nav__link">
+                        { "Compétences" }
+                    </Link<Route>>
                 </div>
             </nav>
         </header>

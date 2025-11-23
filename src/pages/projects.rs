@@ -94,17 +94,10 @@ fn project_card(props: &ProjectCardProps) -> Html {
 pub fn projects() -> Html {
     let projects = vec![
         ProjectCardProps {
-            title: "Projet 1".into(),
-            subtitle: "Sous titre".into(),
-            description: "Description (200 char max)".into(),
-            github: "https://github.com/ton-compte/projet1".into(),
-            overleaf: "https://www.overleaf.com".into(),
-        },
-        ProjectCardProps {
-            title: "Projet 2".into(),
-            subtitle: "Sous titre".into(),
-            description: "Description (200 char max)".into(),
-            github: "https://github.com/ton-compte/projet2".into(),
+            title: "Mon portfolio".into(),
+            subtitle: "Site web personnel interactif".into(),
+            description: "Création d’un portfolio moderne pour présenter mon parcours, mes projets et mes compétences en systèmes embarqués et IoT.".into(),
+            github: "https://github.com/Kacper264/portfolio".into(),
             overleaf: "https://www.overleaf.com".into(),
         },
     ];

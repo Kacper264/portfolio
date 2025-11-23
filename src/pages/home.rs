@@ -17,7 +17,9 @@ pub fn home() -> Html {
                         </h2>
 
                         <p class="intro">
-                            { "Paragraphes intro" }
+                            { "Passionné par les systèmes embarqués et les technologies IoT, je développe des solutions alliant électronique, programmation bas niveau et conception de cartes. 
+                            Actuellement en cycle ingénieur à l’ESIEE Paris et alternant chez Paprec, j'interviens sur des projets alliant design hardware, sécurité réseau et développement logiciel. 
+                            Curieux, rigoureux et animé par l’envie d’apprendre, je cherche constamment à créer des systèmes efficaces, optimisés et fiables." }
                         </p>
 
                         <div class="buttons">
@@ -39,22 +41,6 @@ pub fn home() -> Html {
                         <div class="photo-placeholder">
                             <span>{ "Photo" }</span>
                         </div>
-                    </div>
-                </section>
-
-                <section class="skills">
-                    <h3 class="skills__title">{ "Mes Compétences" }</h3>
-
-                    <div class="skills__grid">
-                        <div class="skill-card"><div class="skill-card__icon">{ "Icone" }</div><div class="skill-card__label">{ "Skill 1" }</div></div>
-                        <div class="skill-card"><div class="skill-card__icon">{ "Icone" }</div><div class="skill-card__label">{ "Skill 2" }</div></div>
-                        <div class="skill-card"><div class="skill-card__icon">{ "Icone" }</div><div class="skill-card__label">{ "Skill 3" }</div></div>
-                        <div class="skill-card"><div class="skill-card__icon">{ "Icone" }</div><div class="skill-card__label">{ "Skill 4" }</div></div>
-                        <div class="skill-card"><div class="skill-card__icon">{ "Icone" }</div><div class="skill-card__label">{ "Skill 5" }</div></div>
-                        <div class="skill-card"><div class="skill-card__icon">{ "Icone" }</div><div class="skill-card__label">{ "Skill 6" }</div></div>
-                        <div class="skill-card"><div class="skill-card__icon">{ "Icone" }</div><div class="skill-card__label">{ "Skill 7" }</div></div>
-                        <div class="skill-card"><div class="skill-card__icon">{ "Icone" }</div><div class="skill-card__label">{ "Skill 8" }</div></div>
-                        <div class="skill-card"><div class="skill-card__icon">{ "Icone" }</div><div class="skill-card__label">{ "Skill 9" }</div></div>
                     </div>
                 </section>
             </main>

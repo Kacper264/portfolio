@@ -11,9 +11,6 @@ pub fn about() -> Html {
                     <h2 class="about__subtitle">
                         { "Ingénieur – Développeur IoT & Systèmes Embarqués" }
                     </h2>
-                    <p class="about__intro">
-                        { "Paragraphe de présentation" }
-                    </p>
                 </header>
 
                 <div class="about__body">
@@ -27,21 +24,31 @@ pub fn about() -> Html {
                         <div class="about__section">
                             <h3 class="about__section-title">{ "Qui suis-je ?" }</h3>
                             <p class="about__section-text">
-                                { "Paragraphe (6–7 lignes)" }
+                                { "Je suis un passionné de technologies embarquées et d’IoT, animé par l’envie de créer des systèmes intelligents et performants. 
+                                J’aime transformer une idée en solution concrète, qu’il s’agisse de code bas niveau, de design électronique ou d’optimisation hardware. 
+                                Curieux, méthodique et toujours en quête de nouveaux défis, je m’investis dans chaque projet avec l’objectif de proposer des solutions fiables, 
+                                propres et efficaces. Mon approche : comprendre, concevoir et améliorer en continu." }
                             </p>
                         </div>
 
                         <div class="about__section">
-                            <h3 class="about__section-title">{ "Parcours" }</h3>
+                            <h3 class="about__section-title">{ "Mon parcours" }</h3>
                             <p class="about__section-text">
-                                { "Paragraphe (6–7 lignes)" }
+                                { "Mon cheminement a commencé avec un BAC STI2D, puis un BTS en électronique qui m’a donné une base technique solide. 
+                                Après une prépa orientée mathématiques, j’ai rejoint l’ESIEE Paris en cycle ingénieur Systèmes Embarqués, tout en travaillant en alternance chez Paprec. 
+                                Aujourd’hui, je conçois des systèmes embarqués, des cartes électroniques et des infrastructures réseau sécurisées (RADIUS, filtrage MAC). 
+                                J’ai aussi eu l’opportunité de passer par le service informatique de la mairie de Maisons-Alfort, ce qui m’a permis d’aborder des environnements 
+                                professionnels variés et concrets." }
                             </p>
                         </div>
 
                         <div class="about__section">
                             <h3 class="about__section-title">{ "Soft Skills" }</h3>
                             <p class="about__section-text">
-                                { "Paragraphe (6–7 lignes)" }
+                                { "Je m’appuie sur un esprit analytique, une forte capacité d’adaptation et un réel goût pour la résolution de problèmes. 
+                                Travailler sur des projets techniques m’a appris à être rigoureux, autonome, mais aussi à collaborer efficacement avec des équipes aux profils différents. 
+                                Mes loisirs comme l’e-sport, les mathématiques et la programmation nourrissent mon sens de la stratégie, ma créativité et ma persévérance. 
+                                J’avance toujours avec l’idée d’apprendre, de progresser et d’aller plus loin techniquement." }
                             </p>
                         </div>
 

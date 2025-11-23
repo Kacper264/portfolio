@@ -12,7 +12,8 @@ fn switch(route: Route) -> Html {
         Route::Projects => html! { <pages::projects::Projects /> },
         Route::About => html! { <pages::about::About /> },
         Route::Contact => html! { <pages::contact::Contact /> },
-        Route::Links => todo!()
+        Route::Links => todo!(),
+        Route::Competence => html! { <pages::skills::Skills />},
     }
 }
 #[function_component(App)]
